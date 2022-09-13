@@ -168,15 +168,16 @@ var componentName = "wb-calevt",
 					}
 				]
 			},
-			objEventsList = obj.find( "ol > li, ul > li" ),
-			iLen = objEventsList.length,
+			objEventsList = obj.find( "ol, ul" ).first(),
+			objEventsListItems = objEventsList.find( "> li:not(.wb-fltr-out)" ),
+			iLen = objEventsListItems.length,
 			dateTimeRegExp = /datetime\s+\{date:\s*(\d+-\d+-\d+)\}/,
 			i, $event, event, $objTitle, title, link, href, target,
 			linkId, date, tCollection, tCollectionTemp,	strDate1,
 			strDate2, z, zLen, className, dateClass;
 
 		for ( i = 0; i !== iLen; i += 1 ) {
-			$event = objEventsList.eq( i );
+			$event = objEventsListItems.eq( i );
 			event = $event[ 0 ];
 			$objTitle = $event.find( "*:header:first" );
 			className = $objTitle.attr( "class" );
@@ -372,7 +373,27 @@ var componentName = "wb-calevt",
 	};
 
 // Bind the init event of the plugin
-$document.on( "timerpoke.wb " + initEvent, selector, init );
+//$document.on( "timerpoke.wb " + initEvent, selector, init );
+
+$document.on( "timerpoke.wb " + initEvent + " redraw" + selector +
+" close" + selector, selector, function( event ) {
+
+	var eventType = event.type,
+		$elm = $( "#" + event.target.id ),
+		calendarId = event.currentTarget.dataset.calevtSrc;
+
+	switch ( eventType ) {
+	case "timerpoke":
+	case "wb-init":
+		init( event );
+		break;
+
+	case "redraw":
+		$( "#" + calendarId + " .wb-clndr" ).remove();
+		processEvents( $elm );
+		break;
+	}
+} );
 
 $document.on( "wb-navigate.wb-clndr", ".wb-calevt-cal", function( event ) {
 	var lib = event.target.lib,
@@ -434,6 +455,10 @@ $document.on( "keydown", ".wb-calevt-cal .cal-days td > ul li", function( event 
 		$itemParent.trigger( setFocusEvent );
 		break;
 	}
+} );
+
+$document.on( "focusout", ".wb-calevt-cal .cal-days td > ul > li > a", function( event ) {
+	hideEvents.call( event.target );
 } );
 
 // Add the timer poke to initialize the plugin
