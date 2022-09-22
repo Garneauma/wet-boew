@@ -42,7 +42,9 @@
 		</li>
 		<li>Ajouter un deuxième élément <code>div</code> à la page Web avec le nom unique de l’attribut <code>data-calevt-src</code> ci-haut (p.ex., <code>&lt;div id="unique-name"&gt;&lt;/div&gt;</code>). Cela permettra de maintenir en place l’interface de calendrier.</li>
 	</ol>
-	<p>Exemple code :</p>
+	<p><strong>Note</strong>: ce plugiciel prend toujours en charge <code>&lt;ul&gt;</code> et <code>&lt;ol&gt;</code>, mais, en date du 21 septembre 2022, nous recommandons d'utiliser un <code>&lt;ul&gt;</code> car les numéros d'éléments dans un <code>&lt;ol&gt;</code> commencerons toujours à 1, même lorsque certains éléments sont masqués.</p>
+
+	<h3>Exemple code :</h3>
 	<pre><code>&lt;div id="calendar1"&gt;&lt;/div&gt;
 
 &lt;div class="wb-calevt" data-calevt-src="calendar1"&gt;
