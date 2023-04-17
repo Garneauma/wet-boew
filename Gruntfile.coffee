@@ -371,6 +371,7 @@ module.exports = (grunt) ->
 				options:
 					stripBanners: false
 				src: [
+					"src/shims/jquery-cdn-test.js"
 					"node_modules/dompurify/dist/purify.js"
 					"src/core/dep/jquery-fix.js"
 					"src/core/dep/modernizr-custom.js"
