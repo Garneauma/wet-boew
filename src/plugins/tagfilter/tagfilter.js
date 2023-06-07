@@ -13,6 +13,8 @@ const componentName = "wb-tagfilter",
 	initEvent = "wb-init" + selector,
 	$document = wb.doc,
 	filterOutClass = "wb-tgfltr-out",
+	itemsWrapperClass = "wb-tagfilter-items",
+	tgFilterResetClass = "wb-tagfilter-reset",
 
 	init = function( event ) {
 		const elm = wb.init( event, componentName, selector );
@@ -21,24 +23,23 @@ const componentName = "wb-tagfilter",
 			elm.items = [];
 			elm.filters = {};
 			elm.activeFilters = [];
+			elm.filterControls = elm.querySelectorAll( selectorCtrl );
 
-			// Get all form inputs (radio buttons, checkboxes and select) within filters form
-			const filterControls = document.querySelectorAll( "#" + elm.id + " .wb-tagfilter-ctrl" ),
-				taggedItems = document.querySelectorAll( "#" + elm.id + " [data-wb-tags]" ),
+			const taggedItems = document.querySelectorAll( "#" + elm.id + " [data-wb-tags]" ),
 				taggedItemsWrapper = document.querySelector( "#" + elm.id + " .wb-tagfilter-items" );
 
 			if ( taggedItemsWrapper ) {
 				taggedItemsWrapper.id = taggedItemsWrapper.id || wb.getId(); // Ensure the element has an ID
 				taggedItemsWrapper.setAttribute( "aria-live", "polite" );
 			} else {
-				console.warn( componentName + ": You have to identify the wrapper of your tagged elements using the class 'wb-tagfilter-items'." );
+				console.warn( componentName + ": You have to identify the wrapper of your tagged elements using the class '" + itemsWrapperClass + "'." );
 			}
 
 			// Handle filters
-			if ( filterControls.length ) {
-				elm.filters = buildFiltersObj( filterControls );
+			if ( elm.filterControls.length ) {
+				elm.filters = buildFiltersObj( elm.filterControls );
 
-				filterControls.forEach( function( item ) {
+				elm.filterControls.forEach( function( item ) {
 					item.setAttribute( "aria-controls", taggedItemsWrapper.id );
 				} );
 			} else {
@@ -103,12 +104,17 @@ const componentName = "wb-tagfilter",
 					value: control.value
 				} );
 
+				control.initState = control.checked;
+
 				break;
 			case "select-one":
 				filtersObj[ control.name ] = [ {
 					type: control.type,
 					value: control.value
 				} ];
+
+				control.initValue = control.value;
+
 				break;
 			}
 		} );
@@ -222,8 +228,8 @@ $document.on( "change", selectorCtrl, function( event )  {
 		filterType = control.type,
 		filterName = control.name,
 		filterValue = control.value,
-		$elm = control.closest( selector ),
-		filterGroup = $elm.filters[ filterName ];
+		elm = control.closest( selector ),
+		filterGroup = elm.filters[ filterName ];
 
 	switch ( filterType ) {
 	case "checkbox":
@@ -255,7 +261,30 @@ $document.on( "change", selectorCtrl, function( event )  {
 	}
 
 	// Update list of visible items
-	update( $elm );
+	update( elm );
+} );
+
+$document.on( "click", "." + tgFilterResetClass, function( event ) {
+	let elm = event.target.closest( selector );
+
+	// Reset filter control to initial value/state
+	elm.filterControls.forEach( function( filter ) {
+		switch ( filter.type ) {
+		case "checkbox":
+		case "radio":
+			filter.checked = filter.initState;
+			break;
+		case "select-one":
+			filter.value = filter.initValue;
+			break;
+		}
+	} );
+
+	// Rebuild filters object
+	elm.filters = buildFiltersObj( elm.filterControls );
+
+	// Update list of visible items
+	update( elm );
 } );
 
 $document.on( "timerpoke.wb " + initEvent, selector, init );
