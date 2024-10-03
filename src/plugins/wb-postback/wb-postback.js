@@ -31,7 +31,8 @@ var $document = wb.doc,
 				selectorSuccess = settings.success,
 				selectorFailure = settings.failure || selectorSuccess;
 			const attrBlocked = "data-wb-blocked",
-				attrSending = "data-wb-sending";
+				attrSending = "data-wb-sending",
+				postbackSubmit = new Event( componentName + ".submit" );
 
 			elm.addEventListener( "submit", function( e ) {
 
