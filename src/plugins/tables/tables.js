@@ -75,7 +75,10 @@ var componentName = "wb-tables",
 			defaults = {
 				asStripeClasses: [],
 				language: i18nText,
-				dom: "<'top'fil>rt<'bottom'p><'clear'>"
+				dom: "<'top'fil>rt<'bottom'p><'clear'>",
+				rowCallback: function ( row ) { // Strip any script tag from the data before insertion in HTML
+					row.querySelectorAll( "script" ).forEach( e => e.remove() );
+				}
 			};
 
 			Modernizr.load( {
