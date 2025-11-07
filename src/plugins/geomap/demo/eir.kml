@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Folder>
+<name>Projects</name>
+<Schema name="Projects" id="Projects">
+<SimpleField name="Name" type="string"></SimpleField>
+<SimpleField name="Description" type="string"></SimpleField>
+<SimpleField name="OBJECTID" type="int"></SimpleField>
+<SimpleField name="Amount" type="string"></SimpleField>
+<SimpleField name="Project" type="string"></SimpleField>
+<SimpleField name="Client" type="string"></SimpleField>
+<SimpleField name="Program" type="string"></SimpleField>
+</Schema>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">22</SimpleData>
+<SimpleData name="Amount">821 000 $</SimpleData>
+<SimpleData name="Project">Soutenir la relance et la croissance du secteur maritime industriel de la Colombie-Britannique après la pandémie de COVID-19</SimpleData>
+<SimpleData name="Client">Association of British Columbia Marine Industries</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.396,48.649</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">217</SimpleData>
+<SimpleData name="Amount">10 000 000 $</SimpleData>
+<SimpleData name="Project">Réaliser le projet Agtech Innovation Sandbox (AGIS) visant à accroître et à commercialiser les technologies agricoles en Colombie-Britannique</SimpleData>
+<SimpleData name="Client">Université Simon Fraser</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-122.849,49.188</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">289</SimpleData>
+<SimpleData name="Amount">1 229 900 $</SimpleData>
+<SimpleData name="Project">Moderniser l’équipement du centre de protéomique afin de soutenir les entreprises du secteur des sciences de la vie en Colombie-Britannique</SimpleData>
+<SimpleData name="Client">Université de Victoria</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.412,48.494</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">258</SimpleData>
+<SimpleData name="Amount">1 040 000 $</SimpleData>
+<SimpleData name="Project">Promouvoir l’économie circulaire en Colombie-Britannique par le développement et l’essai de produits au sein des petites et moyennes entreprises</SimpleData>
+<SimpleData name="Client">Université de la Colombie-Britannique</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-119.396,49.94</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">259</SimpleData>
+<SimpleData name="Amount">3 500 000 $</SimpleData>
+<SimpleData name="Project">Favoriser la croissance du secteur biotechnologique de la Colombie-Britannique en améliorant la technologie d’exécution sous-tendant les vaccins à ARNm</SimpleData>
+<SimpleData name="Client">Université de la Colombie-Britannique</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.25,49.261</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">218</SimpleData>
+<SimpleData name="Amount">599 000 $</SimpleData>
+<SimpleData name="Project">Accroître les capacités du centre de mégadonnées de l’Université Simon Fraser pour appuyer la croissance des PME</SimpleData>
+<SimpleData name="Client">Université Simon Fraser</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-122.918,49.276</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">260</SimpleData>
+<SimpleData name="Amount">7 680 000 $</SimpleData>
+<SimpleData name="Project">Favoriser la croissance du secteur biotechnologique de la Colombie-Britannique en faisant progresser la thérapie antivirale in vitro et sur place pour les variants du SRAS-CoV2</SimpleData>
+<SimpleData name="Client">Université de la Colombie-Britannique</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.246,49.263</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">345</SimpleData>
+<SimpleData name="Amount">600 000 $</SimpleData>
+<SimpleData name="Project">Offrir à des travailleurs de secteurs traditionnels un programme pilote de formation en services technico-commerciaux</SimpleData>
+<SimpleData name="Client">Palette Skills Inc.</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.057,49.21</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">219</SimpleData>
+<SimpleData name="Amount">2 046 760 $</SimpleData>
+<SimpleData name="Project">Créer un centre pour les analyses environnementales et alimentaires afin de mettre à l’essai des technologies propres</SimpleData>
+<SimpleData name="Client">Université Simon Fraser</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-122.918,49.276</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">287</SimpleData>
+<SimpleData name="Amount">1 906 000 $</SimpleData>
+<SimpleData name="Project">Mettre sur pied le Carrefour de l’innovation pour des solutions environnementales à Prince George</SimpleData>
+<SimpleData name="Client">Université de Northern British Columbia</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-122.814,53.888</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">220</SimpleData>
+<SimpleData name="Amount">1 800 000 $</SimpleData>
+<SimpleData name="Project">Accroître les capacités du laboratoire WearTech de l’Université Simon Fraser pour mettre à l’essai et commercialiser de nouveaux produits</SimpleData>
+<SimpleData name="Client">Université Simon Fraser</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-122.918,49.276</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">122</SimpleData>
+<SimpleData name="Amount">5 200 000 $</SimpleData>
+<SimpleData name="Project">Établir le BC Net Zero Innovation Network (BCNZIN)</SimpleData>
+<SimpleData name="Client">Foresight Cleantech Accelerator Centre</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-122.777,49.266</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">261</SimpleData>
+<SimpleData name="Amount">25 000 $</SimpleData>
+<SimpleData name="Project">Livrer la conférence Équité, diversité et inclusion (EDI)</SimpleData>
+<SimpleData name="Client">Chambre de commerce du Grand Vancouver</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.111,49.288</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">40</SimpleData>
+<SimpleData name="Amount">495 000 $</SimpleData>
+<SimpleData name="Project">Soutenir le projet d’amélioration de la technologie de l’information (TI) de Small Business BC</SimpleData>
+<SimpleData name="Client">Canada/British Columbia Business Services Society</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.104,49.244</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">320</SimpleData>
+<SimpleData name="Amount">3 000 000 $</SimpleData>
+<SimpleData name="Project">Mettre en œuvre une initiative de grappes d’entreprises océaniques en Colombie-Britannique</SimpleData>
+<SimpleData name="Client">YYJ Prosperity Association</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.363,48.424</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">120</SimpleData>
+<SimpleData name="Amount">2 031 638 $</SimpleData>
+<SimpleData name="Project">Améliorer les programmes de formation pour l’emploi des autochtones dans les secteurs technologiques</SimpleData>
+<SimpleData name="Client">First Nations Technology Council</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.032,49.305</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">426</SimpleData>
+<SimpleData name="Amount">5 235 899 $</SimpleData>
+<SimpleData name="Project">Établissement d’un centre de formation national en biofabrication</SimpleData>
+<SimpleData name="Client">BCIT</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.003,49.254</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">427</SimpleData>
+<SimpleData name="Amount">9 900 000 $</SimpleData>
+<SimpleData name="Project">Lancement d’une initiative de place de marché intégrée</SimpleData>
+<SimpleData name="Client">Innovate BC</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.089,49.269</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">459</SimpleData>
+<SimpleData name="Amount">3 850 600 $</SimpleData>
+<SimpleData name="Project">Établir un centre d’innovation des aliments et des boissons pour le secteur de l’agriculture à valeur ajoutée de la Colombie-Britannique</SimpleData>
+<SimpleData name="Client">Université de la Colombie-Britannique</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.245,49.263</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">428</SimpleData>
+<SimpleData name="Amount">2 321 672 $</SimpleData>
+<SimpleData name="Project">Aider l’industrie minière à libérer le potentiel de la Colombie-Britannique dans le secteur des minéraux critiques grâce à de l’innovation en sciences de la terre</SimpleData>
+<SimpleData name="Client">Université de la Colombie-Britannique</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.245,49.263</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">566</SimpleData>
+<SimpleData name="Amount">1 351 845 $</SimpleData>
+<SimpleData name="Project">Bâtir un laboratoire de détection aéroportée pour soutenir les PME et le secteur de détection à distance en émergence de la Colombie-Britannique</SimpleData>
+<SimpleData name="Client">Université de la Colombie-Britannique</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-119.397186,49.940847</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">453</SimpleData>
+<SimpleData name="Amount">9 463 000 $</SimpleData>
+<SimpleData name="Project">Établir le Clean Hydrogen Hub de l’Université Simon Fraser pour soutenir le secteur de l’hydrogène vert de classe mondiale de la Colombie-Britannique</SimpleData>
+<SimpleData name="Client">Université Simon Fraser</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-122.929,49.278</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">429</SimpleData>
+<SimpleData name="Amount">1 750 000 $</SimpleData>
+<SimpleData name="Project">Élargir les capacités afin de soutenir l’innovation dans les domaines de la conception et de la fabrication de composites pour les PME de la Colombie-Britannique</SimpleData>
+<SimpleData name="Client">Université de la Colombie-Britannique</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.245,49.263</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">433</SimpleData>
+<SimpleData name="Amount">312 000 $</SimpleData>
+<SimpleData name="Project">Stimuler la croissance et l’expansion du secteur des technologies de pointe et immersives de la Colombie-Britannique</SimpleData>
+<SimpleData name="Client">The Frontier Collective Society</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.275,49.374</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">457</SimpleData>
+<SimpleData name="Amount">150 000 $</SimpleData>
+<SimpleData name="Project">Établir un centre régional de développement de l’hydrogène à Prince George</SimpleData>
+<SimpleData name="Client">Economic Development Division</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-122.745,53.913</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">468</SimpleData>
+<SimpleData name="Amount">720 000 $</SimpleData>
+<SimpleData name="Project">Organiser une exposition sur les technologies créatives et mettre sur pied une initiative de placement de talent à Vancouver, en Colombie-Britannique</SimpleData>
+<SimpleData name="Client">DigiBC, The Interactive &#38; Digital Media Industry Association of BC</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.088,49.267</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">443</SimpleData>
+<SimpleData name="Amount">474 218 $</SimpleData>
+<SimpleData name="Project">Mettre en œuvre un projet d’économie circulaire dans la région de l’île de Vancouver et de la côte</SimpleData>
+<SimpleData name="Client">Synergy Foundation</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.369,48.427</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">460</SimpleData>
+<SimpleData name="Amount">5 000 000 $</SimpleData>
+<SimpleData name="Project">Établir une fonderie de biodispositifs à l’Université de la Colombie-Britannique</SimpleData>
+<SimpleData name="Client">Université de la Colombie-Britannique</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.245,49.263</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">445</SimpleData>
+<SimpleData name="Amount">25 000 $</SimpleData>
+<SimpleData name="Project">Tenue du colloque GreenShip 2003 à Vancouver, en Colombie-Britannique</SimpleData>
+<SimpleData name="Client">Vancouver Maritime Centre for Climate</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.114,49.278</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">455</SimpleData>
+<SimpleData name="Amount">6 600 000 $</SimpleData>
+<SimpleData name="Project">Tenue du mondialement reconnu colloque Collision à Vancouver en 2025, 2026 et 2027</SimpleData>
+<SimpleData name="Client">Destination Vancouver</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.115,49.288</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">561</SimpleData>
+<SimpleData name="Amount">881 600 $</SimpleData>
+<SimpleData name="Project">Établir un centre d’innovation sur les algues pour accélérer la croissance de cette industrie sur l’île de Vancouver</SimpleData>
+<SimpleData name="Client">North Island College</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-125.2457685,49.973978</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">518</SimpleData>
+<SimpleData name="Amount">21 981 $</SimpleData>
+<SimpleData name="Project">Promotion des sciences de la vie à BIO 2024</SimpleData>
+<SimpleData name="Client">Life Sciences British Columbia Society</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.121,49.288</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">562</SimpleData>
+<SimpleData name="Amount">6 000 000 $</SimpleData>
+<SimpleData name="Project">Soutenir l’établissement d’un nouveau centre d’innovation en sciences de la vie à Vancouver, en Colombie-Britannique</SimpleData>
+<SimpleData name="Client">adMare BioInnovations</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.103935,49.26629</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">565</SimpleData>
+<SimpleData name="Amount">500 000 $</SimpleData>
+<SimpleData name="Project">Soutenir la prestation du Programme d’accélération du commerce international (PAC) en Colombie-Britannique</SimpleData>
+<SimpleData name="Client">Chambre de commerce du Vancouver</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.1129868,49.2885042</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">568</SimpleData>
+<SimpleData name="Amount">466 956 $</SimpleData>
+<SimpleData name="Project">Faire progresser les possibilités de commerce et d’investissement pour le secteur de l’hydrogène et des piles à combustible de la Colombie-Britannique</SimpleData>
+<SimpleData name="Client">Canadian Hydrogen Association</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.167,49.169</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<ExtendedData>
+<SchemaData schemaUrl="#Projects">
+<SimpleData name="OBJECTID">570</SimpleData>
+<SimpleData name="Amount">20 000 $</SimpleData>
+<SimpleData name="Project">Tenir le sommet sur l’énergie propre de 2025 et 2026 à Burnaby, en Colombie-Britannique</SimpleData>
+<SimpleData name="Client">Burnaby Board of Trade</SimpleData>
+<SimpleData name="Program">Écosystèmes d’innovation régionaux</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-123.003,49.23</coordinates>
+</Point>
+</Placemark>
+</Folder>
+</Document>
+</kml>

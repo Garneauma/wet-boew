@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>Transformative strategies</name>
+<Schema name="transformative_strategies" id="transformative_strategies">
+	<SimpleField name="Title" type="string"></SimpleField>
+	<SimpleField name="Location" type="string"></SimpleField>
+	<SimpleField name="Proponent" type="string"></SimpleField>
+	<SimpleField name="Sector" type="string"></SimpleField>
+	<SimpleField name="FullProject" type="string"></SimpleField>
+</Schema>
+<Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformative_strategies">
+		<SimpleData name="OBJECTID">2</SimpleData>
+		<SimpleData name="Title">LNG Canada Phase 2</SimpleData>
+		<SimpleData name="Location">Kitimat, &lt;em&gt;British Columbia&lt;/em&gt;</SimpleData>
+		<SimpleData name="Proponent">LNG Canada</SimpleData>
+		<SimpleData name="Sector">Energy</SimpleData>
+		<SimpleData name="FullProject">&lt;a href="#"&gt;View full project&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>-130.502,63.0111</coordinates></Point>
+</Placemark>
+<Placemark>
+	<ExtendedData><SchemaData schemaUrl="#transformative_strategies">
+		<SimpleData name="OBJECTID">3</SimpleData>
+		<SimpleData name="Title">Darlington New Nuclear Project</SimpleData>
+		<SimpleData name="Location">Bowmanville, &lt;em&gt;Ontario&lt;/em&gt;</SimpleData>
+		<SimpleData name="Proponent">Ontario Power Generation</SimpleData>
+		<SimpleData name="Sector">Industrial</SimpleData>
+		<SimpleData name="FullProject">&lt;a href="#"&gt;View full project&lt;/a&gt;</SimpleData>
+	</SchemaData></ExtendedData>
+	<Point><coordinates>-120.502,63.0111</coordinates></Point>
+</Placemark>
+</Folder></Document></kml>
